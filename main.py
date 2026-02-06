@@ -7,8 +7,8 @@ from datetime import datetime
 import json
 import os
 
-# Bot tokeningizni bu yerga kiriting
-BOT_TOKEN = "8009221474:AAEuOWB8aZ98lzM6BjqDBIXPz93ZBIDHa-w"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 
 # Kanal username va admin ID
 CHANNEL_USERNAME = "@furkatova_madina"
@@ -357,3 +357,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
