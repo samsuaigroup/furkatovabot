@@ -288,7 +288,7 @@ async def get_referral_callback(callback: types.CallbackQuery):
         "🔗 <b>SIZNING REFERAL LINKINGIZ</b>\n\n"
         "📣 Ushbu linkni do‘stlaringizga yuboring.\n"
         "✅ Har bir yangi a’zo uchun <b>+5 ball</b>\n\n"
-        f"👉 <code>{referral_link}</code>\n\n"
+        "👉 referral_link\n\n"
         "🔥 Qancha ko‘p taklif qilsangiz, shuncha yutish imkoniyati yuqori!"
     )
 
@@ -357,4 +357,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
